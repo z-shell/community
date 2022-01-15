@@ -1,3 +1,3 @@
-# Z-shell community
+# ZI Community
 
 
