@@ -1,7 +1,8 @@
 ---
 name: Community Membership Request
-about: Request memeber privileges on a Z-shell property
+about: Request memeber privileges on a z-shell organiztion
 title: 'REQUEST: New member for <your-GH-handle> of <z-shell property>'
+labels: ''
 assignees: ''
 
 ---
