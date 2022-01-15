@@ -10,8 +10,13 @@ assignees: ''
 e.g. (at)github_user
 
 ### Property you'd like to Moderate
-e.g. zinit, zinit-packages
 
+  - [ ] ZI
+  - [ ] Annexes
+  - [ ] Plugins
+  - [ ] Packages
+  - [ ] Documentation
+  
 ### Sponsors if any
 
 - (at)sponsor-1
