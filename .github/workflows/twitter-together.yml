@@ -1,5 +1,6 @@
+
 on: [push, pull_request]
-name: Twitter, together!
+name: :bird: Twitter, together!
 jobs:
   preview:
     name: Preview
