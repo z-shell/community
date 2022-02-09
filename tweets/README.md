@@ -31,7 +31,3 @@ A tweet including a poll must end with 2-4 options in the following format
 - `*.tweet` files will not be created for tweets you send out directly from twitter.com
 - If you need to rename an existing tweet file, please do so locally using [`git mv old_filename new_filename`](https://help.github.com/en/articles/renaming-a-file-using-the-command-line), otherwise it may occur as deleted and added which would trigger a new tweet.
 - your message must fit into a single tweet
-
-## Questions?
-
-If you have any further questions or suggestions, please create an issue at https://github.com/gr2m/twitter-together/issues/new
