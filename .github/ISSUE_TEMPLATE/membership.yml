@@ -59,7 +59,7 @@ body:
     id: contributing
     attributes:
       label: Contibuting Guide
-      description: By submitting this issue, you agree to follow our [Contributors Guide](https://github.com/z-shell/community/blob/main/docs/CONTRIBUTING.md)
+      description: By submitting this issue, you agree to follow our [Contributing Guide](https://github.com/z-shell/community/blob/main/docs/CONTRIBUTING.md)
       options:
         - label: I aware of project's contributing guide.
           required: true
