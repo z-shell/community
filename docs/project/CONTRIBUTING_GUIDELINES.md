@@ -1,7 +1,7 @@
 # Contributing Guidelines ( WORK IN PROGRESS )
 
 When contributing, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
-Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+Please note we have a [code of conduct](../governance/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ## Knowledge Base
 
@@ -96,15 +96,12 @@ git push -u origin Branch_Name
 - Go to your repository in browser and click on compare and pull requests.
   Then add a title and description to your pull request that explains your contribution.
 
-## Recommendations
-
-- Any files to support prefered editor should be collaborated and respected across organization repositories e.g: [editorconfig](https://gist.github.com/ss-o/1e8d9f3a710f78330a09ccc47ef6ddb2).
-- Write comments extensively as we use: [Doxygen For Shell Scripts](https://github.com/z-shell/zsdoc) which parses Zsh and Bash scripts.
-- Get familiar with [Conventional commits](https://www.conventionalcommits.org) and [ZenHub](https://go.zenhub.com).
+> Write comments extensively as we use: [Doxygen For Shell Scripts](https://github.com/z-shell/zsdoc) which parses Zsh and Bash scripts.
+> Get familiar with [Conventional commits](https://www.conventionalcommits.org) and [ZenHub](https://go.zenhub.com).
 
 ### Issues and feature requests
 
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature?Take a look at [GitHub Discussions](https://github.com/z-shell/zi/discussions) to see if it's already being discussed. You can help us by [submitting an issue on GitHub](https://github.com/z-shell/zi/issues). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
+You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature?Take a look at [GitHub Discussions](https://github.com/z-shell/community/discussions) to see if it's already being discussed. You can help us by [submitting an issue on GitHub](https://github.com/z-shell/zi/issues). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
 
 Please try to create bug reports that are:
 
@@ -178,12 +175,3 @@ Contributing is also a great way to learn more about social coding on Github, ne
   - :lipstick: `:lipstick:` when improving UI
   - :gem: `:gem:` new release
   - :rocket: `:rocket:` Anything related to Deployments/DevOps
-
-### Do not add images, rather 👇
-
-Instead of adding non-essential images to repository link them to markdown files.
-
-#### How to do that?
-
-- You can do that by hosting all you images and screenshots to any images hosting sites such as [imgur](https://imgur.com/), [imgbb](https://imgbb.com/), [postimages](https://postimages.org/).
-- Then link your uploaded images to README files.
