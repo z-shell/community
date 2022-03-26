@@ -4,7 +4,7 @@ This Project welcomes contributions, suggestions, and feedback. All contribution
 
 [Should be further filled in by the project - including defining the requirements to reach maintainer status]
 
-The Project abides by the Organization's [code of conduct](governance/CODE-OF-CONDUCT.md) and [trademark policy](governance/TRADEMARKS.md).
+The Project abides by the Organization's [code of conduct](https://github.com/z-shell/.github/blob/main/docs/CODE-OF-CONDUCT.md) and [trademark policy](https://github.com/z-shell/.github/blob/main/docs/TRADEMARKS.md).
 
 ## Community membership
 
@@ -23,5 +23,4 @@ Familiarity with project organization, roles, policies, procedures, conventions,
 Role-specific expectations, responsibilities.
 
 ---
-Part of MVG-0.1-beta.
-Made with love by GitHub. Licensed under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
+Licensed under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).

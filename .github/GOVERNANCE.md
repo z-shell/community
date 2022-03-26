@@ -1,8 +1,8 @@
 # Governance Policy
 
-This document provides the governance policy for the Project. Maintainers agree to this policy and to abide by all Project polices, including the [code of conduct](../org-docs/CODE-OF-CONDUCT.md), [trademark policy](../org-docs/TRADEMARKS.md), and [antitrust policy](../org-docs/ANTITRUST.md) by adding their name to the [maintainers.md file](./MAINTAINERS.md).
+This document provides the governance policy for the Project. Maintainers agree to this policy and to abide by all Project polices, including the [code of conduct](https://github.com/z-shell/.github/blob/main/docs/CODE-OF-CONDUCT.md), [trademark policy](https://github.com/z-shell/.github/blob/main/docs/TRADEMARKS.md), and [antitrust policy](https://github.com/z-shell/.github/blob/main/docs/ANTITRUST.md) by adding their name to the [maintainers.md file](./MAINTAINERS.md).
 
-## 1. Roles.
+x## 1. Roles.
 
 This project may include the following roles. Additional roles may be adopted and documented by the Project.
 
@@ -41,5 +41,4 @@ Any names, trademarks, logos, or goodwill developed by and associated with the P
 Amendments to this governance policy may be made by affirmative vote of 2/3 of all Maintainers, with approval by the Organization's Steering Committee.
 
 ---
-Part of MVG-0.1-beta.
-Made with love by GitHub. Licensed under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
+Licensed under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
