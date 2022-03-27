@@ -62,7 +62,7 @@ body:
       description: >
         "By submitting this issue, you confirm to agree with [organizational governance and polices for a technical steering committee (TSC)](https://github.com/z-shell/.github/blob/main/governance/README.md)"
       options:
-        - label: "I am awareand agree with Organization's governance & technical steering commitee."
+        - label: "I am familiar with and agree with the governance & technical steering committee."
           required: true
   - type: checkboxes
     id: terms
