@@ -31,17 +31,17 @@ body:
   - type: dropdown
     id: property
     attributes:
-      label: Property you'd like to moderate / maintain
+      label: "Property you'd like to moderate / maintain / support."
       options:
         - General
         - Annex
         - Plugin
         - Package
         - Frontend
-        - Social Content
+        - Community
         - Documentation
-        - Translations
-        - Specific - described below
+        - Internationalization
+        - Other - described below
   - type: textarea
     attributes:
       label: Descripe your role according to the selection above.
@@ -58,16 +58,18 @@ body:
   - type: checkboxes
     id: contributing
     attributes:
-      label: Contibuting Guide
-      description: By submitting this issue, you agree to follow our [Contributing Guide](https://github.com/z-shell/community/blob/main/docs/CONTRIBUTING.md)
+      label: Governance & Steering commitee.
+      description: >
+        "By submitting this issue, you confirm to agree with [organizational governance and polices for a technical steering committee (TSC)](https://github.com/z-shell/.github/blob/main/governance/README.md)"
       options:
-        - label: I aware of project's contributing guide.
+        - label: "I am awareand agree with Organization's governance & technical steering commitee."
           required: true
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/z-shell/community/blob/main/docs/CODE_OF_CONDUCT.md)
+      description: >
+        "By submitting this issue, you agree to follow and will cultivate the [Code of Conduct](https://raw.githubusercontent.com/z-shell/.github/main/governance/organization/CODE-OF-CONDUCT.md)"
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: "I agree to sustain healthy interactions and will follow this project's Code of Conduct"
           required: true
