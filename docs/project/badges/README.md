@@ -11,4 +11,4 @@
   | <placeholder> | <placeholder> |
   | <placeholder> | <placeholder> |
   | <placeholder> | <placeholder> |
-  | <placeholder> | <placeholder> |
+  | [![Generic badge](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)](https://shields.io/) | `[![](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)](https://shields.io/)` |
