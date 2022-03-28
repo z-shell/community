@@ -2,7 +2,6 @@ name: "👥 Community Membership Request"
 description: Request memeber privileges
 labels: ["👥 member"]
 title: "team: "
-
 body:
   - type: markdown
     attributes:
@@ -17,7 +16,7 @@ body:
   - type: input
     attributes:
       label: Username
-      description: GitHub username for the membership request.
+      description: GitHub username to assign membership.
       placeholder: "@username"
     validations:
       required: true
@@ -31,22 +30,30 @@ body:
   - type: dropdown
     id: property
     attributes:
-      label: "Property you'd like to moderate / maintain / support."
+      label: "Property you are interested or would like to moderate."
       options:
         - General
-        - Annex
-        - Plugin
-        - Package
-        - Frontend
+        - Annexes
+        - Plugins
+        - Packages
         - Community
+        - Socialmedia
         - Documentation
+        - Technical writing
         - Internationalization
         - Other - described below
   - type: textarea
     attributes:
-      label: Descripe your role according to the selection above.
-      description: Please include your request motivation and role in a community.
-    validations:
+      label: According to the selection above, please descripe your role from your point of view.
+      description: >
+        "Please try to describe in detail as much as possible, your role in organization, daily routines,
+        what achievent you would set yourself and what steps you would take. Any example is valid"
+      required: true
+  - type: textarea
+    attributes:
+      label: Organization support
+      description: >
+        "Please describe what support you would like from the organization. Anything in relation to above answers is valid.
       required: true
 
   - type: textarea
@@ -69,7 +76,7 @@ body:
     attributes:
       label: Code of Conduct
       description: >
-        "By submitting this issue, you agree to follow and will cultivate the [Code of Conduct](https://raw.githubusercontent.com/z-shell/.github/main/governance/organization/CODE-OF-CONDUCT.md)"
+        "By submitting this issue, you agree to follow and will help to cultivate the [Code of Conduct](https://raw.githubusercontent.com/z-shell/.github/main/governance/organization/CODE-OF-CONDUCT.md)"
       options:
-        - label: "I agree to sustain healthy interactions and will follow this project's Code of Conduct"
+        - label: "I agree to follow the Code of Conduct and sustain healthy interactions across organization."
           required: true
