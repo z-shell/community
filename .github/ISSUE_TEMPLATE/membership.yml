@@ -71,7 +71,7 @@ body:
     attributes:
       label: Governance & Steering committee.
       description: >
-        By submitting this issue, you confirm to agree with [organizational governance and policies for a technical steering committee (TSC)](https://github.com/z-shell/.github/blob/main/governance/README.md)
+        By submitting this issue, you confirm to agree with [Organizational Governance and Policies for a Technical Steering Committee (TSC)](https://github.com/z-shell/.github/blob/main/governance/README.md)
       options:
         - label: "I am familiar with and agree with the governance & technical steering committee."
           required: true
