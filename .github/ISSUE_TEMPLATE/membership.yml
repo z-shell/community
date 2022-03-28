@@ -31,7 +31,7 @@ body:
   - type: dropdown
     id: property
     attributes:
-      label: "Property you are interested or would like to moderate."
+      label: "Property you'd like to moderate / maintain / support."
       options:
         - General
         - Annex
@@ -42,20 +42,10 @@ body:
         - Documentation
         - Internationalization
         - Other - described below
-    validations:
-      required: true
   - type: textarea
     attributes:
-      label: According to the selection above, please descripe your role from your point of view.
-      description: >
-        "Please try to describe in detail as much as possible, your role in organization, daily routines, what achievent you would set yourself and what steps you would take. Any example is valid"
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Organization support
-      description: >
-        "Please describe what support you would like from the organization. Anything in relation to above answers is valid."
+      label: Descripe your role according to the selection above.
+      description: Please include your request motivation and role in a community.
     validations:
       required: true
 
@@ -65,23 +55,21 @@ body:
       description: Optional textarea to provide any additional information.
     validations:
       required: false
-
   - type: checkboxes
     id: contributing
     attributes:
       label: Governance & Steering commitee.
-      description: |
+      description: >
         "By submitting this issue, you confirm to agree with [organizational governance and polices for a technical steering committee (TSC)](https://github.com/z-shell/.github/blob/main/governance/README.md)"
       options:
         - label: "I am familiar with and agree with the governance & technical steering committee."
           required: true
-
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: |
+      description: >
         "By submitting this issue, you agree to follow and will cultivate the [Code of Conduct](https://raw.githubusercontent.com/z-shell/.github/main/governance/organization/CODE-OF-CONDUCT.md)"
       options:
-        - label: "I agree to sustain healthy interactions and will follow this project's Code of Conduct."
+        - label: "I agree to sustain healthy interactions and will follow this project's Code of Conduct"
           required: true
