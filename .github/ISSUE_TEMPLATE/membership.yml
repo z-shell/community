@@ -69,8 +69,7 @@ body:
     id: contributing
     attributes:
       label: Governance & Steering commitee.
-      description: >
-        "By submitting this issue, you confirm to agree with [organizational governance and polices for a technical steering committee (TSC)](https://github.com/z-shell/.github/blob/main/governance/README.md)"
+      description: "By submitting this issue, you confirm to agree with [organizational governance and polices for a technical steering committee (TSC)](https://github.com/z-shell/.github/blob/main/governance/README.md)"
       options:
         - label: "I am familiar with and agree with the governance & technical steering committee."
           required: true
@@ -79,8 +78,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: >
-        "By submitting this issue, you agree to follow and will cultivate the [Code of Conduct](https://raw.githubusercontent.com/z-shell/.github/main/governance/organization/CODE-OF-CONDUCT.md)"
+      description: "By submitting this issue, you agree to follow and will cultivate the [Code of Conduct](https://raw.githubusercontent.com/z-shell/.github/main/governance/organization/CODE-OF-CONDUCT.md)"
       options:
         - label: "I agree to sustain healthy interactions and will follow this project's Code of Conduct."
           required: true
