@@ -28,18 +28,20 @@ body:
       placeholder: "@sponsor1, @sponsor2"
     validations:
       required: false
+
   - type: dropdown
     id: property
     attributes:
-      label: "Property you'd like to moderate / maintain / support."
+      label: "Property you are interested or would like to moderate."
       options:
         - General
-        - Annex
-        - Plugin
-        - Package
-        - Frontend
+        - Annexes
+        - Plugins
+        - Packages
         - Community
+        - Socialmedia
         - Documentation
+        - Technical writing
         - Internationalization
         - Other - described below
   - type: textarea
