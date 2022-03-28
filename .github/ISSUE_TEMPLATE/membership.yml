@@ -55,6 +55,13 @@ body:
 
   - type: textarea
     attributes:
+      label: Organization support
+      description: >
+        "Please describe what support you would like from the organization. Anything in relation to above answers is valid.
+      required: true
+
+  - type: textarea
+    attributes:
       label: Additional
       description: Optional textarea to provide any additional information.
     validations:
