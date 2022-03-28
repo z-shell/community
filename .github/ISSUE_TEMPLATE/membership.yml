@@ -2,17 +2,20 @@ name: "👥 Community Membership Request"
 description: Request memeber privileges
 labels: ["👥 member"]
 title: "team: "
+
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for participating!
+
   - type: input
     id: contact
     attributes:
       label: Contact Details
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
+
   - type: input
     attributes:
       label: Username
@@ -20,6 +23,7 @@ body:
       placeholder: "@username"
     validations:
       required: true
+
   - type: input
     attributes:
       label: Sponsors
@@ -27,6 +31,7 @@ body:
       placeholder: "@sponsor1, @sponsor2"
     validations:
       required: false
+
   - type: dropdown
     id: property
     attributes:
@@ -42,6 +47,7 @@ body:
         - Technical writing
         - Internationalization
         - Other - described below
+
   - type: textarea
     attributes:
       label: According to the selection above, please descripe your role from your point of view.
@@ -49,6 +55,7 @@ body:
         "Please try to describe in detail as much as possible, your role in organization, daily routines,
         what achievent you would set yourself and what steps you would take. Any example is valid"
       required: true
+
   - type: textarea
     attributes:
       label: Organization support
@@ -56,12 +63,14 @@ body:
         "Please describe what support you would like from the organization. Anything in relation to above answers is valid.
     validations:
       required: true
+
   - type: textarea
     attributes:
       label: Additional
       description: Optional textarea to provide any additional information.
     validations:
       required: false
+
   - type: checkboxes
     id: contributing
     attributes:
@@ -71,6 +80,7 @@ body:
       options:
         - label: "I am familiar with and agree with the governance & technical steering committee."
           required: true
+
   - type: checkboxes
     id: terms
     attributes:
