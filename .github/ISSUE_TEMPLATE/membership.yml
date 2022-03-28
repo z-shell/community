@@ -48,16 +48,16 @@ body:
     attributes:
       label: According to the selection above, please describe your role from your point of view.
       description: >
-        "Please try to describe in detail as much as possible, your role in organization, daily routines,
-        what achievement you would set yourself, and what steps you would take. Any example is valid"
+        Please try to describe in detail as much as possible, your role in organization, daily routines,
+        what achievement you would set yourself, and what steps you would take. Any example is valid
     validations:
       required: true
   - type: textarea
     attributes:
       label: Organization support
       description: >
-        "Please try to describe in detail as much as possible, your role in organization, daily routines,
-        what achievent you would set yourself and what steps you would take. Any example is valid"
+        Please try to describe in detail as much as possible, your role in organization, daily routines,
+        what achievent you would set yourself and what steps you would take. Any example is valid
     validations:
       required: false
   - type: textarea
@@ -71,7 +71,7 @@ body:
     attributes:
       label: Governance & Steering committee.
       description: >
-        "By submitting this issue, you confirm to agree with [organizational governance and policies for a technical steering committee (TSC)](https://github.com/z-shell/.github/blob/main/governance/README.md)"
+        By submitting this issue, you confirm to agree with [organizational governance and policies for a technical steering committee (TSC)](https://github.com/z-shell/.github/blob/main/governance/README.md)
       options:
         - label: "I am familiar with and agree with the governance & technical steering committee."
           required: true
@@ -80,7 +80,7 @@ body:
     attributes:
       label: Code of Conduct
       description: >
-        "By submitting this issue, you agree to follow and will cultivate the [Code of Conduct](https://github.com/z-shell/.github/main/governance/organization/CODE-OF-CONDUCT.md)"
+        By submitting this issue, you agree to follow and will cultivate the [Code of Conduct](https://github.com/z-shell/.github/main/governance/organization/CODE-OF-CONDUCT.md)
       options:
         - label: "I agree to sustain healthy interactions and will follow this project's Code of Conduct"
           required: true
