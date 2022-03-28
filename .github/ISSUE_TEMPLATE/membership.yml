@@ -47,8 +47,7 @@ body:
     attributes:
       label: According to the selection above, please descripe your role from your point of view.
       description: >
-        "Please try to describe in detail as much as possible, your role in organization, daily routines,
-        what achievent you would set yourself and what steps you would take. Any example is valid"
+        "Please try to describe in detail as much as possible, your role in organization, daily routines, what achievent you would set yourself and what steps you would take. Any example is valid"
       required: true
 
   - type: textarea
