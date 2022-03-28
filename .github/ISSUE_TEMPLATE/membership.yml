@@ -46,7 +46,7 @@ body:
         - Other - described below
   - type: textarea
     attributes:
-      label: According to the selection above, please describe your role from your point of view.
+      label: According to the selection above, please describe your role from your own point of view.
       description: >
         Please try to describe in detail as much as possible, your role in organization, daily routines,
         what achievement you would set yourself, and what steps you would take. Any example is valid
