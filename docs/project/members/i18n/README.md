@@ -1,6 +1,6 @@
 # Internationalization
 
-  Internationalization (i18n) is the process of preparing software so that it can support local languages and cultural settings.
+Internationalization (i18n) is the process of preparing software so that it can support local languages and cultural settings.
 An internationalized product supports the requirements of local markets around the world, functioning more appropriately based on local norms and better meeting in-country user expectations.
 
 ## Team

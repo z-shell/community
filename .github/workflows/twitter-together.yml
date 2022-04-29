@@ -1,11 +1,11 @@
-on: 
+on:
   push:
     paths:
       - tweets/**
   pull_request:
     paths:
       - tweets/**
-  
+
 name: "🐦 Twitter, together!"
 jobs:
   preview:

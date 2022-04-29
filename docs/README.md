@@ -1,5 +1,5 @@
-## Community 
+# Community
 
-### [Join](https://github.com/z-shell/community/issues/new?assignees=&labels=%F0%9F%91%A5+member&template=membership.yml&title=team%3A+) to collaborate.
+## [Join](https://github.com/z-shell/community/issues/new?assignees=&labels=%F0%9F%91%A5+member&template=membership.yml&title=team%3A+) to collaborate
 
-### [Create new](https://github.com/z-shell/community/new/main/?filename=tweets/new/%3Cfile-name%3E.tweet) _[tweet](https://twitter.com/zshell_zi)_
+## [Create new](https://github.com/z-shell/community/new/main/?filename=tweets/new/%3Cfile-name%3E.tweet) \_[tweet](https://twitter.com/zshell_zi)
