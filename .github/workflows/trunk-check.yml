@@ -13,3 +13,5 @@ jobs:
   labels:
     name: "♻️ Trunk Check"
     uses: z-shell/.github/.github/workflows/trunk-check.yml@main
+    secrets:
+      TRUNK_TOKEN: ${{ secrets.TRUNK_TOKEN }}
