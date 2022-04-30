@@ -1,7 +1,6 @@
 ---
 name: "♻️ Trunk Check"
 on:
-  workflow_call:
   workflow_dispatch:
   push:
     branches: ["main"]
@@ -10,9 +9,10 @@ on:
 #  schedule:
 #    - cron: 0 04 * * 1-5
 
+env:
+  TRUNK_TOKEN: ${{ secrets.TRUNK_TOKEN }}
+
 jobs:
   labels:
     name: "♻️ Trunk Check"
     uses: z-shell/.github/.github/workflows/trunk-check.yml@main
-    with:
-      trunk-token: ${{ secrets.TRUNK_TOKEN }}
