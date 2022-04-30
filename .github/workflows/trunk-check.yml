@@ -11,10 +11,8 @@ on:
 #    - cron: 0 04 * * 1-5
 
 jobs:
-  trunk:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: trunk-io/trunk-action@v1.0.1
-        with:
-          trunk-token: ${{ secrets.TRUNK_TOKEN }}
+  labels:
+    name: "♻️ Trunk Check"
+    uses: z-shell/.github/.github/workflows/trunk-check.yml@main
+    with:
+      trunk-token: ${{ secrets.TRUNK_TOKEN }}
