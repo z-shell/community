@@ -10,7 +10,7 @@ on:
 #    - cron: 0 04 * * 1-5
 
 env:
-  TRUNK_TOKEN: ${{ secrets.TRUNK_TOKEN }}
+  INPUT_TRUNK_TOKEN: ${{ secrets.TRUNK_TOKEN }}
 
 jobs:
   labels:
