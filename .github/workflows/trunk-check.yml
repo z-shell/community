@@ -9,7 +9,7 @@ on:
 #  schedule:
 #    - cron: 0 04 * * 1-5
 jobs:
-  check:
+  check-call:
     uses: z-shell/.github/.github/workflows/trunk-check.yml@main
     secrets:
       TRUNK_TOKEN: ${{ secrets.TRUNK_TOKEN }}
