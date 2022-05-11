@@ -1,15 +1,43 @@
 ---
-name: "♻️ Trunk Check"
+name: '⭕ Trunk'
 on:
-  workflow_dispatch:
   push:
-    branches: ["main"]
+    branches: ['main']
+    tags: ['v*.*.*']
   pull_request:
     types: [opened, synchronize]
 #  schedule:
 #    - cron: 0 04 * * 1-5
+  workflow_dispatch: {}
+
 jobs:
   check-call:
-    uses: z-shell/.github/.github/workflows/trunk-check.yml@main
+    name: '⚡'
+    uses: z-shell/.github/.github/workflows/trunk-call.yml@main
     secrets:
-      TRUNK_TOKEN: ${{ secrets.TRUNK_TOKEN }}
+      trunk-token: ${{ secrets.TRUNK_TOKEN }}
+    with:
+      # Required OS for workflow.
+      os-version: 'ubuntu-latest'
+      # Pass commands to install or prepare dependencies.
+      #       get_dependencies: 'sudo apt update && sudo apt install -yq zsh'
+      # Pass arguments to run before launching Trunk
+      #      call_arguments0: ''      
+      #      call_arguments1: ''
+      #      call_arguments2: ''
+      #      call_arguments3: ''
+      shell: 'bash'
+      enable_node: 'false'
+      node_version: '16'
+      node_arguments: 'npm --version'
+
+      # TRUNK
+      #      trunk_path: ''
+      cache: 'true'
+      upload-series: 'main'
+      check-mode: 'all'
+      arguments: >
+          --ci \
+          --github-repository ${{ github_repository }} \
+          --github-commit "$(git rev-parse HEAD)" \
+          --github-annotate
