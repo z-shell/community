@@ -37,7 +37,7 @@ jobs:
       upload-series: 'main'
       check-mode: 'all'
       arguments: >
-          --ci \
-          --github-repository z-shell/community \
-          --github-commit "$(git rev-parse HEAD)" \
+          --ci
+          --github-repository z-shell/community
+          --github-commit "$(git rev-parse HEAD)"
           --github-annotate
