@@ -39,5 +39,5 @@ jobs:
       arguments: >
           --ci
           --github-repository z-shell/community
-          --github-commit ${{ github_sha }}
+          --github-commit $GITHUB_SHA
           --github-annotate
