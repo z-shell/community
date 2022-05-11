@@ -27,7 +27,7 @@ jobs:
       #      call_arguments2: ''
       #      call_arguments3: ''
       shell: 'bash'
-      enable_node: 'false'
+      enable_node: false
       node_version: '16'
       node_arguments: 'npm --version'
 
