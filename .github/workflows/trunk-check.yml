@@ -38,6 +38,6 @@ jobs:
       check-mode: 'all'
       arguments: >
           --ci \
-          --github-repository ${{ github_repository }} \
+          --github-repository z-shell/community \
           --github-commit "$(git rev-parse HEAD)" \
           --github-annotate
