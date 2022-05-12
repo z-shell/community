@@ -32,7 +32,7 @@ jobs:
       #node_arguments: ''
 
       # TRUNK
-      trunk_path: ".trunk/bin/ttrunk"
+      trunk_path: ".trunk/bin/trunk"
       cache: "true"
       upload-series: "main"
       check-mode: "all"
