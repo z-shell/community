@@ -17,7 +17,6 @@ lint:
         - name: PATH
           list: ["${env.PATH}"]
   enabled:
-    - zsh-n@system
     - actionlint@1.6.12
     - gitleaks@8.8.4
     - hadolint@2.10.0
@@ -29,7 +28,7 @@ lint:
     - linters: [ALL]
       paths:
         - "docs/project/badges/**"
-    - linters: [actionlint]
-      paths:
-        - .github/workflows/sync-labels.yml
-        - .github/workflows/trunk-check.yml
+#    - linters: [actionlint]
+#      paths:
+#        - .github/workflows/sync-labels.yml
+#        - .github/workflows/trunk-check.yml
