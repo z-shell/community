@@ -26,7 +26,7 @@ body:
   - type: checkboxes
     id: email-fwd
     attributes:
-      label: Assign @zshell.dev email forwarder.
+      label: Assign @zshell.dev email forwarder
       description: Email with GitHub username and @zshell.dev domain to be used when participating (ex. username@zshell.dev).
       options:
         - label: Assgin email
