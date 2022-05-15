@@ -31,7 +31,7 @@ body:
       options:
         - label: Email with your GitHub username to be used when participating (ex. username@zshell.dev).
           required: false
-        - label: **Assign email**
+        - label: Assign email
   - type: input
     attributes:
       label: Sponsors
