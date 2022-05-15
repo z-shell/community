@@ -15,23 +15,23 @@ body:
       placeholder: ex. @username
     validations:
       required: true
-- type: input
-  id: contact  
-  attributes:
-    label: Email
-    description: Public email
-    placeholder: ex. email@example.com 
+  - type: input
+    id: contact  
+    attributes:
+      label: Email
+      description: Public email
+      placeholder: ex. email@example.com 
   validations:
     required: false
-- type: checkboxes
-  id: email-fwd
-  attributes:
-    label: Assign @zshell.dev email forwarder.
-    description: You may select more than one.
-    options:
-      - label: Email with your GitHub username to be used when participating (ex. username@zshell.dev).
-        required: false
-      - label: **Assign email**
+  - type: checkboxes
+    id: email-fwd
+    attributes:
+      label: Assign @zshell.dev email forwarder.
+      description: You may select more than one.
+      options:
+        - label: Email with your GitHub username to be used when participating (ex. username@zshell.dev).
+          required: false
+        - label: **Assign email**
   - type: input
     attributes:
       label: Sponsors
