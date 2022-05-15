@@ -15,14 +15,14 @@ body:
       placeholder: ex. @username
     validations:
       required: true
-  - type: input
-    id: contact  
-    attributes:
-      label: Email
-      description: Public email
-      placeholder: ex. email@example.com 
-    validations:
-      required: false
+- type: input
+  id: contact  
+  attributes:
+    label: Email
+    description: Public email
+    placeholder: ex. email@example.com 
+  validations:
+    required: false
 - type: checkboxes
   id: email-fwd
   attributes:
