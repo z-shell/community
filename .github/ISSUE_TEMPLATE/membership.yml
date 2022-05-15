@@ -21,8 +21,8 @@ body:
       label: Email
       description: Public email
       placeholder: ex. email@example.com 
-  validations:
-    required: false
+    validations:
+      required: false
   - type: checkboxes
     id: email-fwd
     attributes:
