@@ -9,18 +9,29 @@ body:
       value: |
         Thanks for participating!
   - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-  - type: input
     attributes:
       label: Username
       description: GitHub username for the membership request.
-      placeholder: "@username"
+      placeholder: ex. @username
     validations:
       required: true
+  - type: input
+    id: contact  
+    attributes:
+      label: Email
+      description: Public email
+      placeholder: ex. email@example.com 
+    validations:
+      required: false
+- type: checkboxes
+  id: email-fwd
+  attributes:
+    label: Assign @zshell.dev email forwarder.
+    description: You may select more than one.
+    options:
+      - label: Email with your GitHub username to be used when participating (ex. username@zshell.dev).
+        required: false
+      - label: **Assign email**
   - type: input
     attributes:
       label: Sponsors
@@ -28,7 +39,6 @@ body:
       placeholder: "@sponsor1, @sponsor2"
     validations:
       required: false
-
   - type: dropdown
     id: property
     attributes:
@@ -46,18 +56,18 @@ body:
         - Other - described below
   - type: textarea
     attributes:
-      label: According to the selection above, please describe your role from your own point of view.
+      label: According to the selection above, please describe your role from your point of view.
       description: >
-        Please try to describe in detail as much as possible, your role in organization, daily routines,
-        what achievement you would set yourself, and what steps you would take. Any example is valid
+        Please try to describe in detail as much as possible, your role in the organization, daily routines,
+        what achievements you would set yourself, and what steps you would take. Any example is valid
     validations:
       required: true
   - type: textarea
     attributes:
       label: Organization support
       description: >
-        Please try to describe in detail as much as possible, your role in organization, daily routines,
-        what achievent you would set yourself and what steps you would take. Any example is valid
+        Please try to describe in detail as much as possible, your role in the organization, daily routines,
+        what achievents you would set yourself and what steps you would take. Any example is valid
     validations:
       required: false
   - type: textarea
