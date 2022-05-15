@@ -27,9 +27,9 @@ body:
     id: email-fwd
     attributes:
       label: Assign @zshell.dev email forwarder.
-      description: You may select more than one.
+      description: Email with GitHub username and @zshell.dev domain to be used when participating (ex. username@zshell.dev).
       options:
-        - label: Email with GitHub username to be used when participating (ex. username@zshell.dev).
+        - label: Assgin email
           required: false
   - type: input
     attributes:
