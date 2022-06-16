@@ -1,15 +1,18 @@
-# Contributing Guidelines ( WORK IN PROGRESS )
+# Contributing Guidelines `WORK IN PROGRESS`
 
 When contributing, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
-Please note we have a [code of conduct](governance/CODE-OF-CONDUCT.md), please follow it in all your interactions with the project.
+
+Please note we have a [code of conduct](../.github/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ## Knowledge Base
 
-- [ZI Wiki](https://z.digitalclouds.dev)
+- [ZI Wiki](https://z-shell.pages.dev)
+- [Zsh Plugin Standard](https://z-shell.pages.dev/community/zsh_plugin_standard)
+- [Zsh Native Scripting Handbook](https://z-shell.pages.devcommunity/zsh_handbook)
 
 ### Need some help regarding the basics?🤔
 
-You can refer to the following articles on basics of Git and Github and also contact the Project Mentors,
+You can refer to the following articles on the basics of Git and Github and also contact the Project Mentors,
 in case you are stuck:
 
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
@@ -22,16 +25,16 @@ in case you are stuck:
 
 Below you will find the process and workflow used to review and merge your changes.
 
-### Step 0 : Find an issue
+### Step 0: Find an issue
 
-- Take a look at the Existing Issues or create your **own** Issues!
+- Take a look at the **existing issues** or create your **own** Issues!
 - Wait for the Issue to be assigned to you after which you can start working on it.
-- Note : Every change in this project should/must have an associated issue.
+- Note: Every change in this project should/must have an associated issue.
 
-### Step 1 : Fork the Project
+### Step 1: Fork the Project
 
 - Fork this Repository. This will create a Local Copy of this Repository on your Github Profile.
-  Keep a reference to the original project in `upstream` remote.
+  Keep a reference to the original project in the `upstream` remote.
 
 ```bash
 git clone https://github.com/<your-username>/<repo-name>
@@ -70,7 +73,7 @@ git add .
 git add <some files>
 ```
 
-### Step 4 : Commit
+### Step 4: Commit
 
 - To commit give a descriptive message for the convenience of reviewer by:
 
@@ -81,27 +84,18 @@ git commit -m "message"
 
 - **NOTE**: A PR should have only one commit. Multiple commits should be squashed.
 
-### Step 5 : Work Remotely
+### Step 5: Work Remotely
 
 - Now you are ready to your work to the remote repository.
 - When your work is ready and complies with the project conventions, upload your changes to your fork:
 
-```bash
-# To push your work to your remote repository
-git push -u origin Branch_Name
-```
+### Step 6: Pull Request
 
-### Step 6 : Pull Request
-
-- Go to your repository in browser and click on compare and pull requests.
-  Then add a title and description to your pull request that explains your contribution.
-
-> Write comments extensively as we use: [Doxygen For Shell Scripts](https://github.com/z-shell/zsdoc) which parses Zsh and Bash scripts.
-> Get familiar with [Conventional commits](https://www.conventionalcommits.org) and [ZenHub](https://go.zenhub.com).
+- Go to your repository in your browser and click on compare and pull requests. Then add a title and description to your pull request that explains your contribution.
 
 ### Issues and feature requests
 
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature?Take a look at [GitHub Discussions](https://github.com/z-shell/community/discussions) to see if it's already being discussed. You can help us by [submitting an issue on GitHub](https://github.com/z-shell/zi/issues). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
+You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? Take a look at [GitHub Discussions](https://github.com/z-shell/zi/discussions) to see if it's already being discussed. You can help us by [submitting an issue on GitHub](https://github.com/z-shell/zi/issues). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
 
 Please try to create bug reports that are:
 
@@ -125,53 +119,25 @@ Please try to create bug reports that are:
 
 #### Clean Pull Request
 
-Contributing is also a great way to learn more about social coding on Github, new technologies and and their ecosystems and how to make constructive, helpful bug reports, feature requests and the noblest of all contributions: a good, clean pull request.
+Contributing is also a great way to learn more about social coding on Github, new technologies and their ecosystems and how to make constructive, helpful bug reports, feature requests and the noblest of all contributions: a good, clean pull request.
 
 - Create a personal fork of the project on Github.
-- Clone the fork on your local machine. Your remote repo on Github is called `origin`.
+- Clone the fork on your local machine. Your remote repo on Github is called the `origin`.
   - `git clone https://github.com/{YOUR-USERNAME}/zi`
 - Add the original repository as a remote called `upstream`.
   - `git remote add upstream https://github.com/z-shell/zi.git`
 - If you created your fork a while ago be sure to pull upstream changes into your local repository.
-- Create a new branch to work on! Branch from `develop` if it exists, else from `main`.
-- Implement/fix your feature, comment your code.
+- Create a new branch from `next` if it exists, else from `main`.
+- Implement/fix your feature, and comment on your code.
 - Follow the code style of the project, including indentation.
-- If there is related tests please run them.
+- If there are related tests please run them.
 - Write or adapt tests as needed.
 - Add or change the documentation as needed.
 - Squash your commits into a single commit with git's [interactive rebase](https://help.github.com/articles/interactive-rebase). Create a new branch if necessary.
 - Push your branch to your fork on Github, the remote `origin`.
-- From your fork open a pull request in the correct branch. Target the project's `develop` branch if there is one, else go for `main`!
+- From your fork open a pull request in the correct branch. Target the project's `next` branch if there is one, else go for `main`!
 - Once the pull request is approved and merged you can pull the changes from `upstream` to your local repo and delete
   your extra branch(es).
 
 > Always write your commit messages in the present tense. Your commit message should describe what the commit, when applied, does to the code – not what you did to the code. ([examples](https://www.google.com/search?q=english+"present+tense+example"))
 
-### Commit messages
-
-- Use the Present Tense ("Add feature" not "Added feature").
-- Use the Imperative Mood ("Move file to..." not "Moves file to...").
-- Limit the subject line to 50 characters
-- Wrap the body at 72 characters
-- Reference issues and pull requests, where possible.
-
-- Be creative with emojies
-  - :tada: `:tada:` Initial commit
-  - :art: `:art:` when improving the format/structure of the code
-  - :racehorse: `:racehorse:` when improving performance
-  - :books: `:books:` when writing docs
-  - :pencil2: `:pencil2:` when fixing typos
-  - :bug: `:bug:` when fixing a bug
-  - :fire: `:fire:` when removing code or files
-  - :green_heart: `:green_heart:` when fixing the CI build
-  - :white_check_mark: `:white_check_mark:` when adding tests
-  - :lock: `:lock:` when dealing with security
-  - :heavy_plus_sign: `:heavy_plus_sign:` when adding new dependencies
-  - :arrow_up: `:arrow_up:` when upgrading dependencies
-  - :arrow_down: `:arrow_down:` when downgrading dependencies
-  - :shirt: `:shirt:` when removing linter warnings
-  - :construction: `:construction:` work in progress
-  - :sparkles: `:sparkles:` when adding feature
-  - :lipstick: `:lipstick:` when improving UI
-  - :gem: `:gem:` new release
-  - :rocket: `:rocket:` Anything related to Deployments/DevOps
