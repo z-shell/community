@@ -140,4 +140,3 @@ Contributing is also a great way to learn more about social coding on Github, ne
   your extra branch(es).
 
 > Always write your commit messages in the present tense. Your commit message should describe what the commit, when applied, does to the code – not what you did to the code. ([examples](https://www.google.com/search?q=english+"present+tense+example"))
-
