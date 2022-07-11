@@ -29,7 +29,7 @@ body:
       label: Assign @zshell.dev email forwarder
       description: Email with GitHub username and @zshell.dev domain to be used when participating (ex. username@zshell.dev).
       options:
-        - label: Assgin email
+        - label: Assign email
           required: false
   - type: input
     attributes:
