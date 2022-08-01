@@ -99,7 +99,3 @@ else
   .zi-add-report "${ZI[CUR_USPL2]}" "Bindkey ${(j: :)${(q)@}}"
 fi
 ```
-
-## `eval`
-
-Eval should be avoid if possible
