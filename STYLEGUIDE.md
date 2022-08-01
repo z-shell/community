@@ -10,7 +10,7 @@ Use blank lines between blocks to improve readability. Indentation is two spaces
 
 ### Line length
 
-Maximum line length is 80 characters. 
+Maximum line length is 120 characters.
 
 If the line is to long, add `\` and indent the rest of the line
 
@@ -20,7 +20,7 @@ Pipelines should be split one per line if they don't all fit on one line. (Respe
 
 If a pipeline all fits on one line, it should be on one line.
 
-If not, it should be split at one pipe segment per line with the pipe on the newline and a 2 space indent for the next section of the pipe. This applies to a chain of commands combined using '|' 
+If not, it should be split at one pipe segment per line with the pipe on the newline and a 2 space indent for the next section of the pipe. This applies to a chain of commands combined using '|'
 If the pipeline contain `&&` see "Syntax `[[ a = b ]] && c`" for more.
 
 ## Conditions
@@ -28,6 +28,57 @@ If the pipeline contain `&&` see "Syntax `[[ a = b ]] && c`" for more.
 ### General
 
 Put `; then` and `; do` on the same line as `if`, `for` or `while`
+
+#### Example
+
+##### Bad
+
+``` shell
+for a in "$@";
+do
+    local aname="${a%%[=]*}"
+    local avalue="${a#*=}"
+    local bname=${(q)aliases[$aname]}
+    aname="${(q)aname}"
+    if (( ${+opts[(r)-s]} ));
+    then
+      tmp=-s
+      tmp="${(q)tmp}"
+      quoted="$aname $bname $tmp"
+    elif (( ${+opts[(r)-g]} ));
+    then
+      tmp=-g
+      tmp="${(q)tmp}"
+      quoted="$aname $bname $tmp"
+    else
+      quoted="$aname $bname"
+    fi
+    quoted="${(q)quoted}"
+done
+```
+
+##### Good
+
+``` shell
+for a in "$@"; do
+    local aname="${a%%[=]*}"
+    local avalue="${a#*=}"
+    local bname=${(q)aliases[$aname]}
+    aname="${(q)aname}"
+    if (( ${+opts[(r)-s]} )); then
+      tmp=-s
+      tmp="${(q)tmp}"
+      quoted="$aname $bname $tmp"
+    elif (( ${+opts[(r)-g]} )); then
+      tmp=-g
+      tmp="${(q)tmp}"
+      quoted="$aname $bname $tmp"
+    else
+      quoted="$aname $bname"
+    fi
+    quoted="${(q)quoted}"
+done
+```
 
 ### Syntax `[[ a = b ]] && c`
 
@@ -51,4 +102,4 @@ fi
 
 ## `eval`
 
-Eval should be avoided if possible
+Eval should be avoid if possible
