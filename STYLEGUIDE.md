@@ -34,18 +34,18 @@ Put `; then` and `; do` on the same line as `if`, `for` or `while`
 ##### Bad
 
 ``` shell
-for a in "$@";
+for a in "$@"
 do
     local aname="${a%%[=]*}"
     local avalue="${a#*=}"
     local bname=${(q)aliases[$aname]}
     aname="${(q)aname}"
-    if (( ${+opts[(r)-s]} ));
+    if (( ${+opts[(r)-s]} ))
     then
       tmp=-s
       tmp="${(q)tmp}"
       quoted="$aname $bname $tmp"
-    elif (( ${+opts[(r)-g]} ));
+    elif (( ${+opts[(r)-g]} ))
     then
       tmp=-g
       tmp="${(q)tmp}"
