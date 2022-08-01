@@ -33,7 +33,7 @@ Put `; then` and `; do` on the same line as `if`, `for` or `while`
 
 ##### Bad
 
-``` shell
+```shell
 for a in "$@"
 do
     local aname="${a%%[=]*}"
@@ -59,7 +59,7 @@ done
 
 ##### Good
 
-``` shell
+```shell
 for a in "$@"; do
     local aname="${a%%[=]*}"
     local avalue="${a#*=}"
@@ -87,12 +87,14 @@ This syntax should be avoided. Use a normal `if` instead
 #### Example
 
 ##### Bad
-``` shell
+
+```shell
 is-at-least 5.3 && .zi-add-report "${ZI[CUR_USPL2]}" "Bindkey ${(j: :)${(q+)@}}" || .zi-add-report "${ZI[CUR_USPL2]}" "Bindkey ${(j: :)${(q)@}}"
 ```
 
 ##### Good
-``` shell
+
+```shell
 if is-at-least 5.3; then
   .zi-add-report "${ZI[CUR_USPL2]}" "Bindkey ${(j: :)${(q+)@}}"
 else
