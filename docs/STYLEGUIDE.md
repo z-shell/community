@@ -86,7 +86,8 @@ The syntax used exclusively if:
 
 - respects the maximum length of 120 characters
 - fits on one line
-  Otherwise, as proposed below:
+
+otherwise, as proposed below:
 
 #### Example
 
