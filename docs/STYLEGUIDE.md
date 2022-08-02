@@ -82,7 +82,11 @@ done
 
 ### Syntax `[[ a = b ]] && c`
 
-This syntax should be avoided. Use a normal `if` instead
+The syntax used exclusively if:
+
+- respects the maximum length of 120 characters
+- fits on one line
+  Otherwise, as proposed below:
 
 #### Example
 
