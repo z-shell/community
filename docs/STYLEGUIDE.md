@@ -83,9 +83,10 @@ done
 ### Syntax `[[ a = b ]] && c`
 
 The syntax used exclusively if:
+
 - respects the maximum length of 120 characters
 - fits on one line
-Otherwise, as proposed below:
+  Otherwise, as proposed below:
 
 #### Example
 
