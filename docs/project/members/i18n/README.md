@@ -10,3 +10,4 @@ Project: https://digitalclouds.crowdin.com/z-shell
 - [@Colerar](https://github.com/Colerar)
 - [@lunarxlark](https://github.com/lunarxlark)
 - [@borley1211](https://github.com/borley1211)
+- [@0xMRTT](https://github.com/0xMRTT)
