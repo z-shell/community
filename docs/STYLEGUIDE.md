@@ -1,14 +1,12 @@
 # Code Style Guide
 
-## General
-
-### Indentation
+## Indentation
 
 Indent 2 spaces. No tabs.
 
 Use blank lines between blocks to improve readability. Indentation is two spaces. Whatever you do, don't use tabs. For existing files, stay faithful to the existing indentation.
 
-### Line length
+## Line length
 
 Maximum line length is 120 characters.
 
@@ -25,13 +23,9 @@ If the pipeline contain `&&` see "Syntax `[[ a = b ]] && c`" for more.
 
 ## Conditions
 
-### General
-
 Put `; then` and `; do` on the same line as `if`, `for` or `while`
 
-#### Example
-
-##### Bad
+Bad:
 
 ```shell
 for a in "$@"
@@ -57,7 +51,7 @@ do
 done
 ```
 
-##### Good
+Good:
 
 ```shell
 for a in "$@"; do
@@ -89,15 +83,13 @@ The syntax used exclusively if:
 
 otherwise, as proposed below:
 
-#### Example
-
-##### Bad
+Bad:
 
 ```shell
 is-at-least 5.3 && .zi-add-report "${ZI[CUR_USPL2]}" "Bindkey ${(j: :)${(q+)@}}" || .zi-add-report "${ZI[CUR_USPL2]}" "Bindkey ${(j: :)${(q)@}}"
 ```
 
-##### Good
+Good:
 
 ```shell
 if is-at-least 5.3; then
