@@ -15,7 +15,7 @@ jobs:
   welcome:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: EddieHubCommunity/gh-action-community/src/welcome@b0655168a4ac6fb03e3b649d943ad2c583900c35
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
